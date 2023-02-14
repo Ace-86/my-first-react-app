@@ -1,11 +1,10 @@
 
-function App() {
-  return (
-    <div className="App">
-     <h1> I am learning react</h1>
-     console.log("it works")
-    </div>
-  );
+import React, { Component } from "react";
+
+class App extends Component {
+  render() {
+    return <div>Hello World</div>;
+  }
 }
 
 export default App;
